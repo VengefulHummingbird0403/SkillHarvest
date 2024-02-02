@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+
+        <br><br>
+        <label for="smesia">Twitter:</label>
+        <input type="text" name="smedia">
+
+         <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" required/> Male
+        <input type="radio" name="gender" required/> Female
+        <input type="radio" name="gender" required/> Other   
+
+        <br><br>
+        <label for="Maiden Name">Maiden Name:</label>
+        <input type="text" name="text">
+
+        <br><br>
+        <label for="country">Country of Origin</label>
+        <select name="country" id="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="'Togo">Togo</option>
+            <option value="Benin">Benin</option>
+        </select>
+
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" name="image.jpg"/></br> 
+        <input type="submit" value="upload"/>
+
+        <br><br>
+        <label for="Marital Status">Marital Status:</label>
+        <input type="radio" name="Married" required/> Married
+        <input type="radio" name="Single" required/> Single
+
+        <br><br>
+        <label for="phone">Enter your phone number:<br/>
+        <small>Format: 080-200-98989</small>
+        </label>
+
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{5}" required/>
+
+        <br><br>
+        <label for="BVN">Enter your BVN:<br/>
+        <small>Format: XXXX-XXX-XXXX</small>
+        </label>
+
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required/>
+
+        <br><br>
+        <label for="Account Number">Enter your Account number:<br/>
+        <small>Format: XXXXXXXX</small>
+        </label>
+
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" required/>
+
+        <br><br>
+        <label for="State of Origin">State of Origin</label>
+        <select name="States" id="States">
+            <option value="Abia">Abia</option>
+            <option value="kaduna">Kaduna</option>
+            <option value="kano">Kano</option>
+            <option value="Bauchi">Bauchi</option>
+        </select>
+
+        <br><br>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+
+        <br><br>
+        <p>Confirm Password:
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+
+        <br><br>
+        <p>Short Description about yourself</p>
+        <textarea name="comments" cols="20" rows="11">Enter your comments....</textarea>
+        
+
+
+    </form>
+
+</body>
+</html>
